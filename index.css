@@ -30,10 +30,11 @@ img {
 }
 
 a, a:visited {
-  color: inherit;
-  transition: .3s all;
+  color: #adbc4e;
+  transition: .2s all ease-in;
 }
-a:hover { color: black; }
+
+a:hover { color: #bfd436; }
 
 ul {
   list-style: none;
