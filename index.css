@@ -19,12 +19,12 @@ main {
   line-height: 1.75;
   margin: 0 auto;
   max-width: 630px;
-  padding: 0 .5rem;
+  padding: 1rem .5rem;
 }
 
 h1 {
   font-size: 1.5rem;
-  margin: .5rem 0 0 0;
+  margin: 0;
 }
 
 img {
@@ -36,6 +36,7 @@ img {
 @media (min-width: 768px) {
   h1 {
     font-size: 2rem;
+    margin-top: .25rem;
   }
 
   img {
