@@ -1,0 +1,21 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy": "surge -p ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcsole/site.git"
+  },
+  "keywords": [],
+  "author": "Ricard Solé Casas <ricardsolecasas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rcsole/site/issues"
+  },
+  "homepage": "https://github.com/rcsole/site#readme",
+  "devDependencies": {
+    "surge": "0.19.0"
+  }
+}
