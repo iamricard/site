@@ -2,7 +2,8 @@
   "name": "site",
   "version": "1.0.0",
   "scripts": {
-    "deploy": "surge -p ./"
+    "css": "cssnano index.css index.min.css",
+    "deploy": "npm run css && surge -p ./"
   },
   "repository": {
     "type": "git",
@@ -16,6 +17,7 @@
   },
   "homepage": "https://github.com/rcsole/site#readme",
   "devDependencies": {
+    "cssnano-cli": "1.0.5",
     "surge": "0.19.0"
   }
 }
